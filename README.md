@@ -5,18 +5,16 @@ This README file contains process to get a tydi data using the source ZIP file p
 The first script you will find below, regards the analysis to get the tydi data frame. The second script at the bottom, regards the 
 generation of the Codebook for the data frame.
 
-=========================================================================================================================
-# R Script for Project Course 3: Getting and Cleaning Data
-#
-# Purpose: This script attempts to perform the following operations:
-#
-# 1. To Merge the training and test sets to create one data set
-# 2. Extract only the measurements on the mean and standard deviation for each measurement
-# 3. Uses descriptive activity names to name the activities in the data set
-# 4. Appropriately labels the data set with descriptive variable names.
-# 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
-#
+=======================================================
+R Script for Project Course 3: Getting and Cleaning Data
 
+Purpose: This script attempts to perform the following operations:
+
+1. To Merge the training and test sets to create one data set
+2. Extract only the measurements on the mean and standard deviation for each measurement
+3. Uses descriptive activity names to name the activities in the data set
+4. Appropriately labels the data set with descriptive variable names.
+5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 # 1. Merging training and set
 
@@ -112,7 +110,9 @@ generation of the Codebook for the data frame.
      write.table(summarySet, file = "./tidyDataset.txt", row.names = FALSE)
      
 ================================================================================================================================
-# Script executed to generate the Codebook for the data frame resulting from the tydi data analysis above.
+# Generate Codebook for data frame
+
+This script executed to generate the Codebook for the data frame resulting from the tydi data analysis above.
 
 install.packages("dataMaid")
 library("dataMaid")
