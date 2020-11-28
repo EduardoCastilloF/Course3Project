@@ -6,6 +6,7 @@ The first script you will find below, regards the analysis to get the tydi data 
 generation of the Codebook for the data frame.
 
 =======================================================
+
 R Script for Project Course 3: Getting and Cleaning Data
 
 Purpose: This script attempts to perform the following operations:
@@ -109,7 +110,7 @@ Purpose: This script attempts to perform the following operations:
      # Write tydi data to output file
      write.table(summarySet, file = "./tidyDataset.txt", row.names = FALSE)
      
-================================================================================================================================
+====================================================
 # Generate Codebook for data frame
 
 This script executed to generate the Codebook for the data frame resulting from the tydi data analysis above.
